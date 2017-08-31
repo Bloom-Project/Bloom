@@ -1,7 +1,17 @@
-PIVX Core integration/staging repository
+Work in Progress
+=====================================
+
+Bloom Core integration/staging repository
 =====================================
 
 [![Build Status](https://travis-ci.org/PIVX-Project/PIVX.svg?branch=master)](https://travis-ci.org/PIVX-Project/PIVX) [![GitHub version](https://badge.fury.io/gh/PIVX-Project%2FPIVX.svg)](https://badge.fury.io/gh/PIVX-Project%2FPIVX)
+
+Bloom is a new cryptocurrency focus on privacy, security and scalability
+- Anonymous transactions using coin mixing and Tor/i2p Nodes
+- Proof-Of-Stake and Proof-Of-Work available
+- Decentralized blockchain suring a consensus algorithm for blockchain advancement and Masternades to 
+secure the network and provide the features described({10K} BLM colleteral)
+- Using Blake2s as the Proof-Of-Work Algorithm
 
 PIVX is a cutting edge cryptocurrency, with many features not available in most other cryptocurrencies.
 - Anonymized transactions using coin mixing technology, we call it _Obfuscation_.
@@ -14,15 +24,17 @@ More information at [pivx.org](http://www.pivx.org) Visit our ANN thread at [Bit
 
 ### Coin Specs
 <table>
-<tr><td>Algo</td><td>Quark</td></tr>
-<tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Algo</td><td>(Quark) -> Blake2s</td></tr>
+<tr><td>Block Time</td><td>~60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 PIV</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>~{43,199,500} BLM</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>60,000 PIV*</td></tr>
+<tr><td>Premine</td><td>100,000 BLM*</td></tr>
 </table>
 
-*60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
+*100,000 BLM makes sure we will keep being able to develop for BLM and blockchain technology {details}
+
+(*60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0))
 
 ### Reward Distribution
 
