@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=BLM's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=BLM
+Group=BLM
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/BLMd/BLMd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/BLMd -daemon -pid=/var/lib/BLMd/BLMd.pid \
+          -conf=/etc/BLM/BLM.conf -datadir=/var/lib/BLMd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/BLM-cli -conf=/etc/BLM/BLM.conf \
+         -datadir=/var/lib/BLMd stop
 
 Restart=always
 PrivateTmp=true
